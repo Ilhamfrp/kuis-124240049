@@ -25,12 +25,6 @@ final int carsIndex;
               Text("${cars[carsIndex].year}"),
               Text("Rp. ${cars[carsIndex].price}"),
               Text(cars[carsIndex].description),
-              ElevatedButton(
-                onPressed: (){
-                  Navigator.pop(context);
-                }, 
-                child: Text("Kembali")
-              )
             ],
           ),
         ),
